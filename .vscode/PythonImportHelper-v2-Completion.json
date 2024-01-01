@@ -192,7 +192,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "df = convert_to_datetime(df)\nglobal_temperatures_df = df.dropna(subset=['LandAverageTemperature'])\n# Streamlit App\nst.title('Climate Change Alert System')\n# Default parameters\ndefault_z_score_threshold = 2.0\ndefault_sequence_length = 10\ndefault_batch_size = 32\ndefault_epochs = 50\n# Check if session state variables are already initialized",
+        "peekOfCode": "df = convert_to_datetime(df)\nglobal_temperatures_df = df.dropna(subset=['LandAverageTemperature'])\n# Streamlit App\nst.title('Climate Change Alert System')\nst.header(\"Please submit the parameters to view the details\")\n# Default parameters\ndefault_z_score_threshold = 2.0\ndefault_sequence_length = 10\ndefault_batch_size = 32\ndefault_epochs = 50",
         "detail": "app",
         "documentation": {}
     },
@@ -201,7 +201,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "global_temperatures_df = df.dropna(subset=['LandAverageTemperature'])\n# Streamlit App\nst.title('Climate Change Alert System')\n# Default parameters\ndefault_z_score_threshold = 2.0\ndefault_sequence_length = 10\ndefault_batch_size = 32\ndefault_epochs = 50\n# Check if session state variables are already initialized\ntry:",
+        "peekOfCode": "global_temperatures_df = df.dropna(subset=['LandAverageTemperature'])\n# Streamlit App\nst.title('Climate Change Alert System')\nst.header(\"Please submit the parameters to view the details\")\n# Default parameters\ndefault_z_score_threshold = 2.0\ndefault_sequence_length = 10\ndefault_batch_size = 32\ndefault_epochs = 50\n# Check if session state variables are already initialized",
         "detail": "app",
         "documentation": {}
     },

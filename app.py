@@ -39,6 +39,7 @@ global_temperatures_df = df.dropna(subset=['LandAverageTemperature'])
 
 # Streamlit App
 st.title('Climate Change Alert System')
+st.header("Please submit the parameters to view the details")
 
 # Default parameters
 default_z_score_threshold = 2.0
